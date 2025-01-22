@@ -1,0 +1,8 @@
+node_modules/
+/test-results/
+/blob-report/
+/playwright/.cache/
+.gitattributes
+.github
+.lock
+yarn.lock

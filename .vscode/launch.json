@@ -1,0 +1,17 @@
+{
+	"version": "0.1.0",
+	"configurations": [
+		{
+			"name": "Playwright Test",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceFolder}/node_modules/@playwright/test/cli.js",
+			"args": ["test", "--project=chromium"],
+			"cwd": "${workspaceFolder}",
+			"env": {
+				"PWDEBUG": "1"
+			},
+			"console": "integratedTerminal"
+		}
+	]
+}
